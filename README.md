@@ -41,7 +41,8 @@ Overall opinion: the scorecard is conceptually sound and much better than the
 | **Legacy (2023)** | Reconstruction of my earlier notebook: median imputation, SMOTEENN, logistic regression | 0.559 | 39.5% |
 | **Challenger** | Gradient boosting on raw features, used only as a benchmark | 0.912 | 19.6% |
 
-This repo replaces a 2023 notebook of mine. Validating my own earlier work was
+This repo replaces a [2023 notebook of mine](https://github.com/Jayaramgokul/Risk-management-using-ML)
+(now archived). Validating my own earlier work was
 deliberate: the legacy model shows two mistakes that are common in practice
 (rebalancing a PD model, and imputing away informative missingness), and the
 report shows how a validator catches and quantifies them.
